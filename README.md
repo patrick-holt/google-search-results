@@ -1,3 +1,3 @@
-This project is a copy of the Google homepage. It is meant to show off my skill in HTML and CSS.
+This project is a copy of the Google search results page. It is similar to the exercise for the Google Homepage, but this is meant to show off a greater skill in HTML and CSS.
 
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
