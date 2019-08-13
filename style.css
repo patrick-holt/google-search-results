@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+cite {
+    font-style: normal;
+    font-size: 14px;
+    color: #006621;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+/* Middle Section */
+
+.search-results {
+    width: 600px;
+    margin-left: 200px;
+}
+
+.entry {
+    margin-top: 25px;
+}
+
+.entry h1, .entry a {
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.entry a:link {
+    color: #1a0dab;
+}
+
+.entry a:visited {
+    color: #609;;
+}
+
+.entry a:hover {
+    text-decoration: underline;
+}
+
+.entry p {
+    font-size: 13px;
+    margin-top: 5px;
+    color: rgb(77, 77, 77);
+    line-height: 150%;
+}
+
+.entry p span {
+    color: gray;
+}
+
+.translate {
+    font-size: 14px;
+}
+
+.similar-searches {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: -20px;
+}
+
+.similar-header {
+    font-size: 20px;
+    color: gray;
+    height: 40px;
+}
+
+.similar-header span {
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.drop-down {
+    border-top: 1px solid lightgray;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.drop-down span {
+    margin-left: 20px;
+}
+
+.feedback a {
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: none;
+    color: gray;
+    margin: 525px;
+}
+
+.feedback:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+/* Add the green arrow later
+.arrow {
+    border-color: #006621 transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    position: absolute;
+    margin-top: -4px;
+}
+*/
+
+/* Footer */
