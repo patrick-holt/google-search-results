@@ -36,6 +36,83 @@ header {
     height: 64px;
 }
 
+#search-field {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid  rgb(196, 196, 196);
+    border-radius: 50px;
+    width: 610px;
+    height: 25px;
+    padding: 10px 25px;
+    margin-left: 20px;
+    top: 15px;
+}
+
+#search-field:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: transparent;
+}
+
+#logo {
+    display: inline-block;
+    background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png");
+    background-size: 100%;
+    width: 92px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+input[type=search] {
+    border: none;
+    float: left;
+    font-size: 14px;
+    width: 80%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.input-tools {
+    background-color: transparent;
+    background-image: url("http://www.gstatic.com/inputtools/images/tia.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.speech {
+    background-color: transparent;
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search-icon {
+    background-color: transparent;
+    fill: #4285f4;
+    width: 24px;
+    height: 24px;
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
 .tools {
     width: 100%;
     height: 58px;
@@ -95,6 +172,42 @@ header {
 
 .visited .text {
     color: #1A73E8;
+}
+
+.menu-area {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+#login {
+    color: white;
+    background-color: #4584F0;
+    border: 1px solid rgb(61, 117, 214);
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+#menu {
+    background-color: transparent;
+    background-image: url("http://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    opacity: 0.55;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#menu:hover {
+    opacity: 0.85;
 }
 
 /* Middle Section */
